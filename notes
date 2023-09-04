@@ -1,0 +1,31 @@
+repos
++multilib
+pkg
++sddm
++bash
++fish
++plasma
++dolphin
++kdevelop
++kdenlive
++kweather
++firefox
++gimp
++blender
++scratch (1.4)
++krita
++mpv
++konsole
++supertuxkart
++vim
++libreoffice (still)
+
+todo
+fix kde theme
+add wallpapers
+fix splash screen
+fix os-release
+fix hostname (zero)
+fix welcome app
+fix kde discover
+fix flatpak

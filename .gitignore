@@ -1,0 +1,3 @@
+*.swp
+src/build/*
+src/tmp/*
