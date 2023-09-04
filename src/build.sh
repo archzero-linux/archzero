@@ -14,7 +14,7 @@ then
   ISONAME=$(date +archzero-%Y-%m-%d)
   echo "Building $ISONAME..."
   mkarchiso -v -w ./tmp -o ./build/$ISONAME .
-  rm -ri ./tmp
+  rm -rf ./tmp
 fi
 
 if [[ $1 == "-b" ]]
@@ -23,5 +23,5 @@ then
   ISONAME="archzero-live-$2"
   echo "Building $ISONAME..."
   mkarchiso -v -w ./tmp -o ./build/$ISONAME .
-  rm -ri ./tmp
+  rm -rf ./tmp
 fi

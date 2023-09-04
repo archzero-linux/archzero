@@ -1,0 +1,8 @@
+NAME="ArchZero"
+PRETTY_NAME="ArchZero Linux"
+ID=archzero
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="0;92"
+HOME_URL="https://zero.biitle.nl/"
+LOGO=archlinux-logo
